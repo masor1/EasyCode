@@ -1,3 +1,5 @@
+package start;
+
 public class Rectangle extends Figure {
 
     protected Rectangle(double a, double b) {

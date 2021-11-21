@@ -1,3 +1,5 @@
+package start;
+
 public class Triangle extends Figure {
 
     protected Triangle(double a, double b, double c) {

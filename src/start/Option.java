@@ -1,3 +1,5 @@
+package start;
+
 public class Option {
 
     private final String description;
@@ -15,7 +17,7 @@ public class Option {
 
     @Override
     public String toString() {
-        return "Option{" +
+        return "start.Option{" +
                 "description='" + description + '\'' +
                 ", isChosen=" + isChosen +
                 '}';

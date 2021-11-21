@@ -1,3 +1,5 @@
+package start;
+
 abstract public class Figure {
 
     private final FigureType type;

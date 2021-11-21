@@ -1,3 +1,5 @@
+package start;
+
 import android_example.*;
 
 public class Main {
