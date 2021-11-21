@@ -1,4 +1,4 @@
-package it_company_1;
+package it_company_1.task;
 
 public class Task {
     private final int id;
@@ -46,7 +46,7 @@ public class Task {
         return buildLink;
     }
 
-    enum Status {
+    public enum Status {
         ASSEMBLING_REQUIREMENTS,
         READY_TO_DO,
         IN_PROGRESS,

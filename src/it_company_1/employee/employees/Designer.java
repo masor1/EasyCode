@@ -1,4 +1,8 @@
-package it_company_1;
+package it_company_1.employee.employees;
+
+import it_company_1.task.Task;
+import it_company_1.task.task_callback.TaskProgressCallback;
+import it_company_1.employee.Employee;
 
 public class Designer extends Employee {
 

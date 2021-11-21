@@ -1,4 +1,7 @@
-package it_company_1;
+package it_company_1.employee;
+
+import it_company_1.task.Task;
+import it_company_1.task.task_callback.TaskProgressCallback;
 
 public abstract class Employee {
     private final TaskProgressCallback callback;
