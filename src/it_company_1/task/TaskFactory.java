@@ -1,7 +1,7 @@
 package it_company_1.task;
 
 public class TaskFactory {
-    private static final int SIZE = 10;
+    private static final int SIZE = 5;
     private final Task[] tasks;
 
     public TaskFactory() {

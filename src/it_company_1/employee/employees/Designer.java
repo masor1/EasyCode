@@ -6,7 +6,7 @@ import it_company_1.employee.Employee;
 
 public class Designer extends Employee {
 
-    protected Designer(TaskProgressCallback callback, String name) {
+    public Designer(TaskProgressCallback callback, String name) {
         super(callback, name, Task.Status.ASSEMBLING_REQUIREMENTS);
     }
 
