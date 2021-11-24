@@ -1,6 +1,16 @@
 package kotlinp.sealed
 
-abstract class Result {
-    class Success(val data: Int): Result()
-    class Error(val message: String): Result()
+import kotlinp.MyCallback
+
+sealed class Result {
+    class Success(val data: Int, myCallback: MyCallback): Result() {
+        init {
+            myCallback.callSuccess()
+        }
+    }
+    class Error(val message: String, myCallback: MyCallback): Result() {
+        init {
+            myCallback.callError()
+        }
+    }
 }
